@@ -1,0 +1,12 @@
+spring:
+  mvc:
+    dispatch-options-request: true
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/cars_db
+  jpa:
+    hibernate:
+      ddl-auto: create
